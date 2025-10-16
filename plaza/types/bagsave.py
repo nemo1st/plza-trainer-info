@@ -30,7 +30,7 @@ class FieldPocket(Enum):
 
 class BagEntry:
     def __init__(self):
-        self.category = -1
+        self.category: CategoryType | int = CategoryType.CORRUPT
         self.quantity = 0
         self.flags = 0
         self.reserve = bytes(4)
@@ -60,7 +60,7 @@ class BagEntry:
             self.flags &= ~(1 << flag_id.value)
 
     def to_bytes(self):
-        return struct.pack('<i I B', self.category, self.quantity, self.flags) + self.reserve + bytes(3)
+        return struct.pack('<i I B', self.category.value, self.quantity, self.flags) + self.reserve + bytes(3)
 
     def __str__(self):
         flags_str = []
