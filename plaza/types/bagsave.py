@@ -60,7 +60,12 @@ class BagEntry:
             self.flags &= ~(1 << flag_id.value)
 
     def to_bytes(self):
-        return struct.pack('<i I B', self.category.value, self.quantity, self.flags) + self.reserve + bytes(3)
+        return struct.pack('<i I B', (
+            self.category.value
+            if isinstance(self.category, CategoryType)
+            else
+            self.category
+        ), self.quantity, self.flags) + self.reserve + bytes(3)
 
     def __str__(self):
         flags_str = []
