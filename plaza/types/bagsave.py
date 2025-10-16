@@ -1,6 +1,16 @@
 import struct
 from enum import Enum
 
+class CategoryType(Enum):
+    CORRUPT  = -1
+    MEDICINE =  0
+    BALLS    =  1
+    OTHER    =  2
+    PICKUP   =  3
+    KEY      =  4
+    BERRIES  =  5
+    TM       =  6
+
 
 class BagFlagID(Enum):
     IsNew = 0

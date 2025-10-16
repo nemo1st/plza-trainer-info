@@ -1,13 +1,13 @@
 import json
 from pathlib import Path
 
-from ..types import CategoryTypes
+from ..types import CategoryType
 
 pwd = Path(__file__).parent
 
 with open(pwd / "item_db.json") as f:
-    item_db: dict[int, dict[str, str | int | CategoryTypes]] = {
-        int(k): v | {"expected_category": CategoryTypes(v["expected_category"])}
+    item_db: dict[int, dict[str, str | int | CategoryType]] = {
+        int(k): v | {"expected_category": CategoryType(v["expected_category"])}
         for k, v in json.loads(f.read()).items()
     }
 

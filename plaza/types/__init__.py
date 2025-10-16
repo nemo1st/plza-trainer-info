@@ -1,3 +1,2 @@
-from .bagsave import BagSave, BagEntry, BagFlagID, BagReleaseCategory
-from .categories import CategoryTypes
+from .bagsave import BagSave, BagEntry, BagFlagID, BagReleaseCategory, CategoryType
 from .coredata import CoreData, UserDataSaveDataAccessor
