@@ -1,4 +1,5 @@
-from .swishcrypto import SCBlock, FnvHash
+from .swishcrypto import SCBlock
+from .fnvhash import FnvHash
 
 class HashDB:
     def __init__(self, blocks: list[SCBlock]):
