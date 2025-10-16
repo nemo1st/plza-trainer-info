@@ -8,7 +8,7 @@ pwd = Path(__file__).parent
 with open(pwd / "item_db.json") as f:
     item_db: dict[int, dict[str, str | int | CategoryTypes]] = {
         int(k): v | {"expected_category": CategoryTypes(v["expected_category"])}
-        for k, v in json.loads(f.read())
+        for k, v in json.loads(f.read()).items()
     }
 
 VALID_ITEMS = list(item_db.keys())
