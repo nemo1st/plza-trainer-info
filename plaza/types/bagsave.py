@@ -42,6 +42,11 @@ class BagEntry:
 
         entry = cls()
         entry.category, entry.quantity, entry.flags = struct.unpack('<i I B', data[:9])
+        entry.category = (
+            CategoryType(entry.category)
+            if -1 <= entry.category <= 6
+            else CategoryType.CORRUPT
+        )
         entry.reserve = data[9:13]
         return entry
 
