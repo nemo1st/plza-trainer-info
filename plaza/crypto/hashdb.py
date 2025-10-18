@@ -48,9 +48,10 @@ class HashDB:
     def __setitem__(self, key: str | int, value: int):
         if isinstance(key, int):
             key = f"{key:08X}"
-        elif isinstance(item, HashDBKeys):
+        elif isinstance(key, HashDBKeys):
             key = f'{key.value:08X}'
         elif isinstance(key, str):
             key = f'{FnvHash.hash_fnv1a_32(key):08X}'
 
         self.db[key].set_value(value)
+
