@@ -10,6 +10,7 @@ class CategoryType(Enum):
     KEY      =  4
     BERRIES  =  5
     TM       =  6
+    MEGA     =  7
 
 
 class BagFlagID(Enum):
@@ -44,7 +45,7 @@ class BagEntry:
         entry.category, entry.quantity, entry.flags = struct.unpack('<i I B', data[:9])
         entry.category = (
             CategoryType(entry.category)
-            if -1 <= entry.category <= 6
+            if -1 <= entry.category <= 7
             else CategoryType.CORRUPT
         )
         entry.reserve = data[9:13]

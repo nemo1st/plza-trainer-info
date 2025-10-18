@@ -1479,163 +1479,163 @@
         "idx": 656,
         "canonical_name": "ITEMID_GENGANAITO",
         "english_ui_name": "Gengarite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "657": {
         "idx": 657,
         "canonical_name": "ITEMID_SAANAITONAITO",
         "english_ui_name": "Gardevoirite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "658": {
         "idx": 658,
         "canonical_name": "ITEMID_DENRYUUNAITO",
         "english_ui_name": "Ampharosite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "659": {
         "idx": 659,
         "canonical_name": "ITEMID_HUSIGIBANAITO",
         "english_ui_name": "Venusaurite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "660": {
         "idx": 660,
         "canonical_name": "ITEMID_RIZAADONAITOx",
         "english_ui_name": "Charizardite X",
-        "expected_category": 2
+        "expected_category": 7
     },
     "661": {
         "idx": 661,
         "canonical_name": "ITEMID_KAMEKKUSUNAITO",
         "english_ui_name": "Blastoisinite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "662": {
         "idx": 662,
         "canonical_name": "ITEMID_MYUUTUNAITOx",
         "english_ui_name": "Mewtwonite X",
-        "expected_category": 2
+        "expected_category": 7
     },
     "663": {
         "idx": 663,
         "canonical_name": "ITEMID_MYUUTUNAITOy",
         "english_ui_name": "Mewtwonite Y",
-        "expected_category": 2
+        "expected_category": 7
     },
     "665": {
         "idx": 665,
         "canonical_name": "ITEMID_TYAAREMUNAITO",
         "english_ui_name": "Medichamite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "666": {
         "idx": 666,
         "canonical_name": "ITEMID_HERUGANAITO",
         "english_ui_name": "Houndoominite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "667": {
         "idx": 667,
         "canonical_name": "ITEMID_BOSUGODORANAITO",
         "english_ui_name": "Aggronite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "668": {
         "idx": 668,
         "canonical_name": "ITEMID_ZYUPETTANAITO",
         "english_ui_name": "Banettite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "669": {
         "idx": 669,
         "canonical_name": "ITEMID_BANGIRASUNAITO",
         "english_ui_name": "Tyranitarite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "670": {
         "idx": 670,
         "canonical_name": "ITEMID_HASSAMUNAITO",
         "english_ui_name": "Scizorite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "671": {
         "idx": 671,
         "canonical_name": "ITEMID_KAIROSUNAITO",
         "english_ui_name": "Pinsirite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "672": {
         "idx": 672,
         "canonical_name": "ITEMID_PUTERANAITO",
         "english_ui_name": "Aerodactylite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "673": {
         "idx": 673,
         "canonical_name": "ITEMID_RUKARIONAITO",
         "english_ui_name": "Lucarionite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "674": {
         "idx": 674,
         "canonical_name": "ITEMID_YUKINOONAITO",
         "english_ui_name": "Abomasite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "675": {
         "idx": 675,
         "canonical_name": "ITEMID_GARUURANAITO",
         "english_ui_name": "Kangaskhanite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "676": {
         "idx": 676,
         "canonical_name": "ITEMID_GYARADOSUNAITO",
         "english_ui_name": "Gyaradosite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "677": {
         "idx": 677,
         "canonical_name": "ITEMID_ABUSORUNAITO",
         "english_ui_name": "Absolite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "678": {
         "idx": 678,
         "canonical_name": "ITEMID_RIZAADONAITOy",
         "english_ui_name": "Charizardite Y",
-        "expected_category": 2
+        "expected_category": 7
     },
     "679": {
         "idx": 679,
         "canonical_name": "ITEMID_HUUDHINAITO",
         "english_ui_name": "Alakazite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "680": {
         "idx": 680,
         "canonical_name": "ITEMID_HERAKUROSUNAITO",
         "english_ui_name": "Heracronite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "681": {
         "idx": 681,
         "canonical_name": "ITEMID_KUTIITONAITO",
         "english_ui_name": "Mawilite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "682": {
         "idx": 682,
         "canonical_name": "ITEMID_RAIBORUTONAITO",
         "english_ui_name": "Manectite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "683": {
         "idx": 683,
         "canonical_name": "ITEMID_GABURIASUNAITO",
         "english_ui_name": "Garchompite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "686": {
         "idx": 686,
@@ -1695,67 +1695,67 @@
         "idx": 754,
         "canonical_name": "ITEMID_YAMIRAMINAITO",
         "english_ui_name": "Sablenite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "755": {
         "idx": 755,
         "canonical_name": "ITEMID_TIRUTARISUNAITO",
         "english_ui_name": "Altarianite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "756": {
         "idx": 756,
         "canonical_name": "ITEMID_ERUREIDONAITO",
         "english_ui_name": "Galladite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "757": {
         "idx": 757,
         "canonical_name": "ITEMID_TABUNNENAITO",
         "english_ui_name": "Audinite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "758": {
         "idx": 758,
         "canonical_name": "ITEMID_METAGUROSUNAITO",
         "english_ui_name": "Metagrossite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "759": {
         "idx": 759,
         "canonical_name": "ITEMID_SAMEHADANAITO",
         "english_ui_name": "Sharpedonite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "760": {
         "idx": 760,
         "canonical_name": "ITEMID_YADORANNAITO",
         "english_ui_name": "Slowbronite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "761": {
         "idx": 761,
         "canonical_name": "ITEMID_HAGANEERUNAITO",
         "english_ui_name": "Steelixite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "762": {
         "idx": 762,
         "canonical_name": "ITEMID_PIZYOTTONAITO",
         "english_ui_name": "Pidgeotite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "763": {
         "idx": 763,
         "canonical_name": "ITEMID_ONIGOORINAITO",
         "english_ui_name": "Glalitite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "764": {
         "idx": 764,
         "canonical_name": "ITEMID_DHIANSINAITO",
         "english_ui_name": "Diancite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "765": {
         "idx": 765,
@@ -1767,25 +1767,25 @@
         "idx": 767,
         "canonical_name": "ITEMID_BAKUUDANAITO",
         "english_ui_name": "Cameruptite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "768": {
         "idx": 768,
         "canonical_name": "ITEMID_MIMIROPPUNAITO",
         "english_ui_name": "Lopunnite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "769": {
         "idx": 769,
         "canonical_name": "ITEMID_BOOMANDANAITO",
         "english_ui_name": "Salamencite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "770": {
         "idx": 770,
         "canonical_name": "ITEMID_SUPIANAITO",
         "english_ui_name": "Beedrillite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "795": {
         "idx": 795,
@@ -2049,157 +2049,157 @@
         "idx": 2559,
         "canonical_name": "ITEMID_PIKUSINAITO",
         "english_ui_name": "Clefablite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "2560": {
         "idx": 2560,
         "canonical_name": "ITEMID_UTUBOTTONAITO",
         "english_ui_name": "Victreebelite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "2561": {
         "idx": 2561,
         "canonical_name": "ITEMID_STAAMIINAITO",
         "english_ui_name": "Starminite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "2562": {
         "idx": 2562,
         "canonical_name": "ITEMID_KAIRYUNAITO",
         "english_ui_name": "Dragoninite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "2563": {
         "idx": 2563,
         "canonical_name": "ITEMID_MEGANIUMUNAITO",
         "english_ui_name": "Meganiumite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "2564": {
         "idx": 2564,
         "canonical_name": "ITEMID_OODAIRUNAITO",
         "english_ui_name": "Feraligite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "2565": {
         "idx": 2565,
         "canonical_name": "ITEMID_EAAMUDONAITO",
         "english_ui_name": "Skarmorite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "2566": {
         "idx": 2566,
         "canonical_name": "ITEMID_YUKIMENOKONAITO",
         "english_ui_name": "Froslassite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "2569": {
         "idx": 2569,
         "canonical_name": "ITEMID_ENBUONAITO",
         "english_ui_name": "Emboarite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "2570": {
         "idx": 2570,
         "canonical_name": "ITEMID_DORYUUZUNAITO",
         "english_ui_name": "Excadrite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "2571": {
         "idx": 2571,
         "canonical_name": "ITEMID_PENDORANAITO",
         "english_ui_name": "Scolipite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "2572": {
         "idx": 2572,
         "canonical_name": "ITEMID_ZURUZUKINAITO",
         "english_ui_name": "Scraftinite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "2573": {
         "idx": 2573,
         "canonical_name": "ITEMID_SIBIRUDONAITO",
         "english_ui_name": "Eelektrossite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "2574": {
         "idx": 2574,
         "canonical_name": "ITEMID_SYANDERANAITO",
         "english_ui_name": "Chandelurite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "2575": {
         "idx": 2575,
         "canonical_name": "ITEMID_BURIGARONAITO",
         "english_ui_name": "Chesnaughtite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "2576": {
         "idx": 2576,
         "canonical_name": "ITEMID_MAFOKUSINAITO",
         "english_ui_name": "Delphoxite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "2577": {
         "idx": 2577,
         "canonical_name": "ITEMID_GEKKOUGANAITO",
         "english_ui_name": "Greninjite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "2578": {
         "idx": 2578,
         "canonical_name": "ITEMID_KAENZISINAITO",
         "english_ui_name": "Pyroarite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "2579": {
         "idx": 2579,
         "canonical_name": "ITEMID_HURAETTENAITO",
         "english_ui_name": "Floettite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "2580": {
         "idx": 2580,
         "canonical_name": "ITEMID_KARAMANERONAITO",
         "english_ui_name": "Malamarite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "2581": {
         "idx": 2581,
         "canonical_name": "ITEMID_GAMENODESUNAITO",
         "english_ui_name": "Barbaracite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "2582": {
         "idx": 2582,
         "canonical_name": "ITEMID_DORAMIDORONAITO",
         "english_ui_name": "Dragalgite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "2583": {
         "idx": 2583,
         "canonical_name": "ITEMID_RUTYABURUNAITO",
         "english_ui_name": "Hawluchanite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "2584": {
         "idx": 2584,
         "canonical_name": "ITEMID_ZIGARUDENAITO",
         "english_ui_name": "Zygardite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "2585": {
         "idx": 2585,
         "canonical_name": "ITEMID_ZIZIIRONAITO",
         "english_ui_name": "Drampanite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "2587": {
         "idx": 2587,
         "canonical_name": "ITEMID_TAIREETUNAITO",
         "english_ui_name": "Falinksite",
-        "expected_category": 2
+        "expected_category": 7
     },
     "2588": {
         "idx": 2588,
