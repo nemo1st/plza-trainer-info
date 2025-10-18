@@ -1,5 +1,6 @@
 from .swishcrypto import SCBlock
 from .fnvhash import FnvHash
+from ..types.accessors import HashDBKeys
 
 class HashDB:
     def __init__(self, blocks: list[SCBlock]):
@@ -9,11 +10,15 @@ class HashDB:
         for block in blocks:
             self.db[f"{block.key:08X}"] = block
 
-    def __getitem__(self, item: str | int):
+    def __getitem__(self, item: str | int | HashDBKeys):
         if isinstance(item, int):
             item = f"{item:08X}"
-        else:
+        elif isinstance(item, HashDBKeys):
+            item = f'{item.value:08X}'
+        elif isinstance(item, str):
             item = f'{FnvHash.hash_fnv1a_32(item):08X}'
+        else:
+            raise TypeError()
 
         if not item in self.db:
             raise KeyError()
