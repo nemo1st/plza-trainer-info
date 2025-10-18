@@ -5,6 +5,7 @@ class HashDBKeys(Enum):
     UNKNOWN     = -1
     BagSave     =  0x21C9BD44
     CoreData    =  FnvHash.hash_fnv1a_32("UserData_keyCoreData")
+    PokeDex     =  FnvHash.hash_fnv1a_32("POKEDEX_SAVE_DATA")
 
 
 # * Currently Known Plaintext Block Keys
@@ -71,7 +72,6 @@ class HashDBKeys(Enum):
     "FlagWorkSaveDataQuestWorkKey",
     "VALIDATION_SAVE_DATA",
     "TitleSaveDataKey",
-    "UserData_keyCoreData",
     "Box_KeyTrayName",
     "Box_KeyTeamPos",
     "Box_KeyTeamLock",
