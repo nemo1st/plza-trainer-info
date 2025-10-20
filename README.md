@@ -16,6 +16,7 @@ $ python3 main.py main
 python3 main.py --core-data main
 
 ## Modify name and ID (with leading zeros)
+## ex. ID is SID+TID.
 python3 main.py --modify main --name ZA --id 0810123456
 ```
 
