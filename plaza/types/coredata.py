@@ -12,7 +12,8 @@ class CoreData:
 
     def __init__(self):
         # Basic info
-        self.id = 0
+        self.id = "0"  # 文字列として保存（先頭のゼロを保持）
+        self._id_int = 0  # バイナリ用の整数値
         self.rom_code = 0
         self.sex = Gender.MALE.value
         self.padding1 = 0
@@ -66,11 +67,14 @@ class CoreData:
 
         # Unpack the binary data
         # First 8 bytes: ID, rom_code, sex, padding1, poke_language_id
-        (core_data.id,
+        (core_data._id_int,
          core_data.rom_code,
          core_data.sex,
          core_data.padding1,
          core_data.poke_language_id) = struct.unpack('<I B B B B', data[:8])
+
+        # IDを文字列として保存（10桁でゼロパディング）
+        core_data.id = str(core_data._id_int).zfill(10)
 
         # Next 8 bytes: nex_unique_id
         core_data.nex_unique_id = struct.unpack('<Q', data[8:16])[0]
@@ -132,9 +136,12 @@ class CoreData:
         """Convert CoreData back to bytes"""
         data = b''
 
+        # IDを整数に変換してパック
+        self._id_int = int(self.id)
+
         # Pack first 8 bytes
         data += struct.pack('<I B B B B',
-                            self.id,
+                            self._id_int,
                             self.rom_code,
                             self.sex,
                             self.padding1,
@@ -248,11 +255,22 @@ class CoreData:
 
     def get_id_low(self):
         """Get lower 16 bits of ID"""
-        return self.id & 0xFFFF
+        return int(self.id) & 0xFFFF
 
     def get_draw_id(self):
         """Get display ID (last 6 digits)"""
-        return self.id % 1000000
+        return int(self.id) % 1000000
+
+    def get_id_int(self):
+        """Get ID as integer"""
+        return int(self.id)
+
+    def set_id(self, id_value):
+        """Set ID from string or integer"""
+        if isinstance(id_value, str):
+            self.id = id_value
+        else:
+            self.id = str(id_value).zfill(10)
 
     def __str__(self):
         return (f"CoreData(ID={self.id}, Name='{self.get_name_string()}', "
@@ -276,8 +294,8 @@ class UserDataSaveDataAccessor:
     def get_id(self):
         return self.core_data.id
 
-    def set_id(self, id):
-        self.core_data.id = id
+    def set_id(self, id_value):
+        self.core_data.set_id(id_value)
 
     def get_rom_code(self):
         return self.core_data.rom_code
